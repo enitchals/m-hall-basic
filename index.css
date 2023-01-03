@@ -1,0 +1,41 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+#doors {
+  margin-bottom: 100px;
+  display: flex;
+  flex-direction: row;
+}
+
+.door {
+  min-width: 150px;
+  min-height: 250px;
+  background-color: brown;
+  margin: 20px;
+  padding-top: 50px;
+  text-align: center;
+  color: white;
+  font-size: 100px;
+}
+
+.doorknob {
+  background-color: gold;
+  height: 20px;
+  width: 20px;
+  border-radius: 10px;
+  position: relative;
+  left: 120px;
+  bottom: 20px;
+}
+
+#prompt {
+  color: teal;
+  font-weight: bold;
+  font-size: 30px
+}
